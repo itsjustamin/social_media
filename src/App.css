@@ -1,0 +1,16 @@
+body
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+.beachimg
+{
+    width: 1250px;
+    object-fit: fill;
+    margin-top: 10px;
+    height: 300px;
+    border: 2px solid gray;
+}
+
