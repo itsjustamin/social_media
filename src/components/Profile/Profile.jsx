@@ -12,10 +12,10 @@ const Profile = () => {
       </div>
       <div>
         <div>avatar + description</div>
-        <div>My post</div>
-        <div>New post</div>
-        <div>post1</div>
-        <div>post2</div>
+        <div className="posts">
+          <div className="item">post1</div>
+          <div className="item">post2</div>
+        </div>
       </div>
     </div>
   );

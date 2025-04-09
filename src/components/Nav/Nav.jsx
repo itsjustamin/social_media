@@ -1,22 +1,23 @@
 import React from "react";
 import "./nav.css";
+
 const Navbar = () => {
   return (
-    <nav className="nav">
-      <div className="item">
-        <a href="#q">Profile</a>
+    <nav className='nav'>
+      <div className='item'>
+        <a>Profile</a>
       </div>
-      <div className="item">
-        <a href="#q">Messages</a>
+      <div className='item'>
+        <a>Messages</a>
       </div>
-      <div className="item">
-        <a href="#q">News</a>
+      <div className='item'>
+        <a>News</a>
       </div>
-      <div className="item">
-        <a href="#q">Music</a>
+      <div className='item'>
+        <a>Music</a>
       </div>
-      <div className="item">
-        <a href="#q"> Settings</a>
+      <div className='item'>
+        <a> Settings</a>
       </div>
     </nav>
   );
