@@ -1,8 +1,8 @@
 import React from "react";
-import "./profile.css";
+import styles from "./profile.module.css";
 const Profile = () => {
   return (
-    <div className="content">
+    <div className={styles.content}>
       <div>
         <img
           src="https://clipart-library.com/2023/beach-clipart-beach-background-clipart-clip-art-0.jpg"
@@ -12,10 +12,6 @@ const Profile = () => {
       </div>
       <div>
         <div>avatar + description</div>
-        <div className="posts">
-          <div className="item">post1</div>
-          <div className="item">post2</div>
-        </div>
       </div>
     </div>
   );

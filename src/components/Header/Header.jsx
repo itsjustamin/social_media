@@ -1,8 +1,9 @@
 import React from "react";
-import "./header.css";
+import styles from "./header.module.css";
+
 const Header = () => {
   return (
-    <header className="header">
+    <header className={styles.header}>
       <img
         width={"100px"}
         height={"100px"}
